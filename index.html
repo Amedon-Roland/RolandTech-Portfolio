@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website | Kingcode</title>
+    <!-- fontawesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- iconscout cdn  -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+
+    <!-- css  -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+
+    <!-- header  -->
+    <header>
+        <div class="container">
+            <div class="header_content">
+                <img class="logo" src="./assets/image/logo.png" alt="">
+                <ul class="nav-menu">
+                    <li><a class="active-link" href="#home">Acceuil</a></li>
+                    <li><a href="#about">À propos</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#resume">CV</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <i class="fa-solid fa-bars menu-bar"></i>
+            </div>
+        </div>
+    </header>
+
+    <section id="home" class="home">
+        <div class="animation-home" id="particles-js"></div>
+        <div class="container">
+            <div class="content_home">
+                <div class="left-details">
+                    <h4>Bonjour, je suis</h4>
+                    <h2>Roland AMEDON</h2>
+                    <h1 class="metier">Un <span id="typed"></span></h1>
+                    <p>Je suis un Passioné de Technologie basé au Togo, et je suis<br> Très Dévoué aux Métiers du Digital.
+                    </p>
+                    <button class="btn">Sur moi</button>
+                    
+                </div>
+                <div class="right-details">
+                    <img src="./assets/image/home.png" alt="">
+                    <div class="img-tools">
+                        <img src="./assets/image/github.png" alt="">
+                        <img src="./assets/image/vscode.png" alt="">
+                        <img src="./assets/image/photoshop.png" alt="">
+                       
+                    </div>
+                </div>
+            </div>
+            <div class="footer-home">
+                <a href="#about" class="mouse">
+                    <i class="uil uil-mouse-alt"></i>
+                    <span> Scroller </span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="left-details">
+                    <img src="./assets/image/about.jpg" alt="">
+                    <div class="years"><span id="year">4</span>Années de succès</div>
+                    <div class="project"><span id="project">50</span>Projets</div>
+                </div>
+                <div class="right-details">
+                    <h4>Je suis Disponible</h4>
+                    <h3>Donnons Vie à Votre Projet   </h3>
+                    <p> Bonjour! Je suis un jeune Togolais,très passionné et
+                        dédié à mon travail. j'ai acquis les compétences et
+                        connaissances nécessaires pour faire de votre projet Digital un succès. j'apprécie
+                        chaque étape du processus de conception, de la discussion et
+                        collaboration.</p>
+                    <button class="btn"> Me Joindre </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="companies">
+        <div class="container">
+            <div class="content-companies">
+                <a href="https://togo.collegedeparis.fr" target="_blank"><img src="./assets/image/company/1.png" alt=""></a>
+                <a href="https://bluespeeddigital.org" target="_blank"><img src="./assets/image/company/2.png" alt=""></a>
+                <a href="https://www.goafricaonline.com/tg/825591-digicomms-agences-communication-lome-togo" target="_blank"><img src="./assets/image/company/3.png" alt=""></a>
+                <a href="https://nassarraimmobilier.com/" target="_blank"><img src="./assets/image/company/4.png" alt=""> </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="portfolio">
+        <h4 class="section-top-title">Portfolio</h4>
+        <h3 class="section-title">Mes Meilleurs Projets </h3>
+        <p class="section-description-title"> Explorez Mes Domaines d'Expertise en Vous Aventurant dans Mon Portfolio <br> </p>
+        <div class="filter-portfolio">
+            <button data-filter="all" class="active-portfolio">Tout</button>
+            <button data-filter=".Sites">Sites</button>
+            <button data-filter=".Montages">Montages Vidéo</button>
+            <button data-filter=".Graphisme">Graphisme</button>
+        </div>
+        <div class="portfolio-container container">
+            <div class="portfolio-item mix Sites">
+                <img src="./assets/image/web1.jpg" alt="">
+                <div class="item-content">
+                    <span>Sites</span>
+                </div>
+            </div>
+            <div class="portfolio-item mix Sites">
+                <img src="./assets/image/web2.jpg" alt="">
+                <div class="item-content">
+                    <span>Sites</span>
+                </div>
+            </div>
+            <div class="portfolio-item mix Sites">
+                <img src="./assets/image/web3.jpg" alt="">
+                <div class="item-content">
+                    <span>Sites</span>
+                </div>
+            </div>
+            <div class="portfolio-item mix Sites">
+                <img src="./assets/image/web4.jpg" alt="">
+                <div class="item-content">
+                    <span>Sites</span>
+                </div>
+            </div>
+            <div class="portfolio-item mix Montages">
+                <video src="./assets/video//Motion design d'intro pour la soirée Tiktok Awards Togo 2ème Edition.mp4" controls poster="./assets/video/posters/Tiktok Awards Togo sign.png"   muted ></video>
+                <div class="item-content">
+                    <span> Vidéo <br> d'introduction <br>Au Tiktok Awards <br> Togo Edition 2</span>
+                </div>
+            </div>
+            <div class="portfolio-item mix Montages">
+                <video src="./assets/video/Recapitulatif-Festival-Nikaala.mp4" controls poster="./assets/video/posters/Logo Nikaala.png"  muted></video>
+                <div class="item-content">
+                    <span>  </span>
+                </div>
+            </div>
+            <div class="portfolio-item mix Montages">
+                <video src="./assets/video/Concours Genies Litteraires les AS.mp4" controls poster=""  muted></video>
+                <div class="item-content">
+                    <span>Montages</span>
+                </div>
+            </div>
+            <div class="portfolio-item mix Montages">
+                <video src="./assets/video/Soutenance College de Paris Sup.mp4" controls poster="" muted></video>
+                <div class="item-content">
+                    <span>Montages</span>
+                </div>
+            </div>
+
+            <div class="portfolio-item mix Montages">
+                <video src="./assets/video/Sikota table ronde.mp4" controls poster="" muted></video>
+                <div class="item-content">
+                    <span>Montages</span>
+                </div>
+            </div>
+
+            <div class="portfolio-item mix Graphisme">
+                <img src="./assets/Logos et Graphismes/logo.png" alt="">
+                <div class="item-content">
+                    <span>Graphisme</span>
+                </div>
+            </div>
+            <div class="portfolio-item mix Graphisme">
+                <img src="./assets/Logos et Graphismes/logo appa.png" alt="">
+                <div class="item-content">
+                    <span>Graphisme</span>
+                </div>
+            </div>
+            
+
+
+    </section>
+
+    <section id="resume" class="resume">
+        <h4 class="section-top-title">Resume</h4>
+        <h3 class="section-title">All My Experiences</h3>
+        <p class="section-description-title">Most common methods for designing websites that work <br> well on desktop
+            is
+            responsive and adaptive design</p>
+        <div class="container">
+            <div class="sidebar">
+                <a class="active-resume" href="#education">Education</a>
+                <a href="#experience">Experience</a>
+                <a href="#skills">Skills</a>
+                <a href="#awards">Awards</a>
+            </div>
+            <div class="main-content">
+                <div id="education" class="resume-item education">
+                    <h3 class="title">Education</h3>
+                    <div class="box">
+                        <span class="year">2014-2015</span>
+                        <h3>Bachelor in Computer Science</h3>
+                        <span>Mansoura University</span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta voluptates quas laudantium
+                            necessitatibus laboriosam veritatis sit illum a atque harum.</p>
+                    </div>
+                    <div class="box">
+                        <span class="year">2014-2015</span>
+                        <h3>Bachelor in Computer Science</h3>
+                        <span>Mansoura University</span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta voluptates quas laudantium
+                            necessitatibus
+                            laboriosam veritatis sit illum a atque harum.</p>
+                    </div>
+                    <div class="box">
+                        <span class="year">2014-2015</span>
+                        <h3>Bachelor in Computer Science</h3>
+                        <span>Mansoura University</span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta voluptates quas laudantium
+                            necessitatibus
+                            laboriosam veritatis sit illum a atque harum.</p>
+                    </div>
+                </div>
+                <div id="experience" class="resume-item experience">
+                    <h3 class="title">Experience</h3>
+                    <div class="box">
+                        <span class="year">2014-2015</span>
+                        <h3>Bachelor in Computer Science</h3>
+                        <span>Mansoura University</span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta voluptates quas laudantium
+                            necessitatibus
+                            laboriosam veritatis sit illum a atque harum.</p>
+                    </div>
+                    <div class="box">
+                        <span class="year">2014-2015</span>
+                        <h3>Bachelor in Computer Science</h3>
+                        <span>Mansoura University</span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta voluptates quas laudantium
+                            necessitatibus
+                            laboriosam veritatis sit illum a atque harum.</p>
+                    </div>
+                    <div class="box">
+                        <span class="year">2014-2015</span>
+                        <h3>Bachelor in Computer Science</h3>
+                        <span>Mansoura University</span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta voluptates quas laudantium
+                            necessitatibus
+                            laboriosam veritatis sit illum a atque harum.</p>
+                    </div>
+                </div>
+                <div id="skills" class="resume-item skills">
+                    <h3 class="title">Skills</h3>
+                    <div class="skills-container">
+                        <div class="progress-bars">
+                            <div class="text">
+                                <span>html</span>
+                                <span>90%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <span data-progress="90"></span>
+                            </div>
+                        </div>
+                        <div class="progress-bars">
+                            <div class="text">
+                                <span>css</span>
+                                <span>90%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <span data-progress="90"></span>
+                            </div>
+                        </div>
+                        <div class="progress-bars">
+                            <div class="text">
+                                <span>javascript</span>
+                                <span>70%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <span data-progress="70"></span>
+                            </div>
+                        </div>
+                        <div class="progress-bars">
+                            <div class="text">
+                                <span>photoshop</span>
+                                <span>80%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <span data-progress="80"></span>
+                            </div>
+                        </div>
+                        <div class="progress-bars">
+                            <div class="text">
+                                <span>php</span>
+                                <span>60%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <span data-progress="60"></span>
+                            </div>
+                        </div>
+                        <div class="progress-bars">
+                            <div class="text">
+                                <span>figma</span>
+                                <span>75%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <span data-progress="75"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="awards" class="resume-item awards">
+                    <h3 class="title">Awards</h3>
+                    <div class="box">
+                        <span class="year">2014-2015</span>
+                        <h3>Bachelor in Computer Science</h3>
+                        <span>Mansoura University</span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta voluptates quas laudantium
+                            necessitatibus
+                            laboriosam veritatis sit illum a atque harum.</p>
+                    </div>
+                    <div class="box">
+                        <span class="year">2014-2015</span>
+                        <h3>Bachelor in Computer Science</h3>
+                        <span>Mansoura University</span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta voluptates quas laudantium
+                            necessitatibus
+                            laboriosam veritatis sit illum a atque harum.</p>
+                    </div>
+                    <div class="box">
+                        <span class="year">2014-2015</span>
+                        <h3>Bachelor in Computer Science</h3>
+                        <span>Mansoura University</span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta voluptates quas laudantium
+                            necessitatibus
+                            laboriosam veritatis sit illum a atque harum.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="services">
+        <h4 class="section-top-title">Resume</h4>
+        <h3 class="section-title">All My Experiences</h3>
+        <p class="section-description-title">Most common methods for designing websites that work <br> well on desktop
+            is
+            responsive and adaptive design</p>
+        <div class="container">
+            <div class="box">
+                <i class="fa-solid fa-lightbulb"></i>
+                <span>65 Projects</span>
+                <h3>UI & UX Design</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam dicta veritatis at fugit aliquam animi
+                    aperiam doloribus error numquam soluta!</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-video"></i>
+                <span>50 Projects</span>
+                <h3>Montage Vidéo </h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam dicta veritatis at fugit aliquam animi
+                    aperiam
+                    doloribus error numquam soluta!</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-code"></i>
+                <span>88 Projects</span>
+                <h3>Développement Web </h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam dicta veritatis at fugit aliquam animi
+                    aperiam
+                    doloribus error numquam soluta!</p>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-qrcode"></i>
+                <span>88 Projects</span>
+                <h3>Infographie</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam dicta veritatis at fugit aliquam animi
+                    aperiam
+                    doloribus error numquam soluta!</p>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-users"></i>
+                <span>88 Projects</span>
+                <h3>Community Management </h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam dicta veritatis at fugit aliquam animi
+                    aperiam
+                    doloribus error numquam soluta!</p>
+            </div>
+
+            <div class="box">
+                <i class="fa-solid fa-laptop"></i>
+                <span>88 Projects</span>
+                <h3>Web Design</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam dicta veritatis at fugit aliquam animi
+                    aperiam
+                    doloribus error numquam soluta!</p>
+            </div>
+        </div>
+
+        
+    </section>
+
+    <section id="testimonial" class="testimonial">
+        <h4 class="section-top-title">Testimonial</h4>
+        <h3 class="section-title">What My Clients Say</h3>
+        <p class="section-description-title">Most common methods for designing websites that work <br> well on desktop
+            is
+            responsive and adaptive design</p>
+        <div class="container">
+            <div class="left-details">
+                <div data-id="text1" class="card active-card">
+                    <div class="con-img">
+                        <img src="./assets/image/test1.jpg" alt="">
+                    </div>
+                    <div class="name-job">
+                        <span class="name">Milton Austin</span>
+                        <span class="job">Sales Manage, Slack</span>
+                    </div>
+                </div>
+                <div data-id="text2" class="card">
+                    <div class="con-img">
+                        <img src="./assets/image/test2.jpg" alt="">
+                    </div>
+                    <div class="name-job">
+                        <span class="name">Anna Smith</span>
+                        <span class="job">Sales Team Lead, Sketch</span>
+                    </div>
+                </div>
+                <div data-id="text3" class="card">
+                    <div class="con-img">
+                        <img src="./assets/image/test3.jpg" alt="">
+                    </div>
+                    <div class="name-job">
+                        <span class="name">John Reeves</span>
+                        <span class="job">Head of Sales, Asana</span>
+                    </div>
+                </div>
+            </div>
+            <div class="right-details">
+                <div id="text1" class="text text1 active-text">
+                    <h3>It was a expirience!</h3>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum voluptatum assumenda voluptate? Adipisci delectus nihil odit minus deleniti illo distinctio? Accusamus possimus cum veritatis nulla excepturi veniam rerum enim amet.
+                    </p>
+                    <br>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate itaque pariatur excepturi voluptatum fuga explicabo quasi reprehenderit commodi, aliquid saepe! Ea blanditiis ex ab repudiandae soluta, tenetur in, officiis dolores nesciunt eos, odit deserunt velit perspiciatis labore sequi. Optio, temporibus.
+                    </p>
+                </div>
+                <div id="text2" class="text text2">
+                    <h3>It was a expirience!</h3>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet suscipit eaque magni amet. Harum enim labore repellat, non quaerat maxime consequuntur rerum porro autem nisi ipsa dolorem possimus quasi fuga!
+                    </p>
+                    <br>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores nesciunt earum nostrum id sequi voluptates incidunt consequuntur! Error, maiores tempore ratione, maxime alias pariatur quasi minima dolor labore sunt assumenda.
+                    </p>
+                </div>
+                <div id="text3" class="text text3">
+                    <h3>It was a expirience!</h3>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat neque, eius eveniet nesciunt
+                        dolor saepe
+                        reprehenderit praesentium reiciendis numquam aperiam nam ad voluptas maiores eaque debitis qui
+                        est ab voluptatem.
+                    </p>
+                    <br>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia quasi molestiae voluptatum, enim voluptas nulla error corporis, cumque quam quo distinctio sunt accusamus necessitatibus aliquam. Dicta labore rerum, accusamus eaque necessitatibus nemo doloribus laborum voluptates facilis itaque distinctio porro, illo totam ut id, modi sequi inventore quisquam aliquid minus optio.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section> 
+
+
+    <section id="contact" class="contact">
+        <h4 class="section-top-title">Contactez Moi</h4>
+        <h3 class="section-title">Donnez moi vos nouvelles</h3>
+        <p class="section-description-title">Veuillez remplir le formulaire sur cette section <br> Ou appelez entre 9h00 et 20h00 , du lundi au
+        Vendredi</p>
+        <div class="container">
+            <div class="left-details">
+                <h3>Prenons Contact </h3>
+                <p>to request a quote or want to meet up for coffee.
+                contact us directly of fill out the form and we will
+                get back to you promptly.</p>
+                <form action="">
+                    <div class="inputBox">
+                        <label for=""> Votre Nom </label>
+                        <input type="text">
+                    </div>
+                    <div class="inputBox">
+                        <label for="">Votre Email</label>
+                        <input type="text">
+                    </div>
+                    <div class="inputBox">
+                        <label for="">Votre Message</label>
+                        <textarea name="" id="" cols="30" rows="10"></textarea>
+                    </div>
+                    <button class="btn">Envoyer Un Message</button>
+                </form>
+            </div>
+            <div class="right-details">
+                <img src="./assets/image/contact.png" alt="">
+                <div class="info">
+                    <p>
+                        <i class="fa-solid fa-location-dot"></i>
+                        Lomé-Togo <br>
+                        
+                    </p>
+                    <p>
+                        <i class="fa-solid fa-phone"></i>
+                        0022896322545
+                    </p>
+                    <p>
+                        <i class="fa-solid fa-envelope"></i>
+                       Rolandamedon@gmail.com
+                    </p>
+                </div>
+                <div class="social-icon">
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer>
+        <div class="container">
+            <div class="list">
+                <img src="./assets/image/logo.png" alt="">
+                <ul>
+                    <li><a href="#">Overview</a></li>
+                    <li><a href="#">Features</a></li>
+                    <li><a href="#">Pricing</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Help</a></li>
+                    <li><a href="#">Privacy</a></li>
+                </ul>
+            </div>
+            <div class="copyright">
+                <p>&#169; 2023 RolandTech Tout Droits Réservés</p>
+                <div class="social-icon">
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./assets/js/particles.min.js"></script>
+    <script src="./assets/js/particles.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/3.3.1/mixitup.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.js"></script>
+    <script src="https://unpkg.com/typed.js@2.0.15/dist/typed.umd.js"></script>
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
