@@ -805,6 +805,9 @@ header {
     overflow: hidden;
     position: relative;
     background-color: var(--bg-light);
+    border-style: solid;
+    border-color: var(--light-color);
+    border-width: 0.5px;
 }
 
 .skills-container .progress-bars .progress-bar span {
