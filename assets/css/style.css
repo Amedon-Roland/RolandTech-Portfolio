@@ -6,12 +6,14 @@
     --description-color: rgb(84, 83, 83);
     --light-color: #BABABA;
     --bg-light: #F9F9F9;
+    --bg-darkMode : #1e232e;
 }
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 
 html {
